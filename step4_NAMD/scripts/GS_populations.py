@@ -19,7 +19,7 @@ import libra_py.data_visualize
 warnings.filterwarnings('ignore')
 # Define functions
 def exp_functfssh(t, _x):
-    return 1 - np.exp(-np.power(t / _x, 1.4))
+    return 1 - np.exp(-np.power(t / _x, 2.0))
 
 def exp_functdish(t, _x):
     return 1 - np.exp(-np.power(t / _x, 1.0))
@@ -51,8 +51,8 @@ for idx, method in enumerate(methods):
     for icond in ICONDS:
         try:
             F = h5py.File(f'{method}_icond_{icond}/mem_data.hdf')
-            sh_pop = np.array(F['sh_pop_adi/data'][:, 0])
-            md_time = np.array(F['time/data'][:]) * units.au2fs
+            sh_pop = np.array(F['../key_outputs/sh_pop_adi/data'][:, 0])
+            md_time = np.array(F['../key_outputs/time/data'][:]) * units.au2fs
 #            ax.plot(md_time, sh_pop, alpha=0.1, color=colors[idx])  # Light background curves
             F.close()
 
@@ -96,7 +96,7 @@ for idx, method in enumerate(methods):
 ax.set_ylabel("Ground State Population", fontsize=45)
 
 # Add a title (optional)
-ax.set_title("(TiO$_{2})_{5}$", fontsize=50)
+ax.set_title("(TiO$_{2})_{2}$ 100 K", fontsize=50)
 
 # Add a legend
 # Customize tick parameters for both axes
@@ -108,7 +108,7 @@ props = dict(boxstyle='round', facecolor='white', alpha=0.8)
 #        verticalalignment='center', horizontalalignment='left', bbox=props)
 
 # Show grid for better readability
-plt.savefig('TiO2_5_300K_GS_pop_evolution.pdf', format='pdf')
+plt.savefig('TiO2_2_100K_GS_pop_evolution.pdf', format='pdf')
 
 # Show the plot
 plt.tight_layout()
