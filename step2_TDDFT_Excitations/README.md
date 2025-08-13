@@ -1,4 +1,4 @@
-	#Project_relaxation_recombination_TiO2_nanoclusters
+# Project_relaxation_recombination_TiO2_nanoclusters
 
 **inputs and scripts to be in the same directory to start the calculation**
 
@@ -35,7 +35,7 @@ and the excitation amplitudes (this is indeed the output of running the `test.py
 
 To unpack, decompress each file separately:
 
-tar -xvjf step2_key_outputs_100K.tar.bz2
-tar -xvjf step2_key_outputs_300K.tar.bz2
+    tar -xvjf step2_key_outputs_100K.tar.bz2
+    tar -xvjf step2_key_outputs_300K.tar.bz2
 
 
