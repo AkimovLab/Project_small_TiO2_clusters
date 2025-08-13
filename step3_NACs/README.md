@@ -1,4 +1,4 @@
-	#Project_relaxation_recombination_TiO2_nanoclusters
+# Project_relaxation_recombination_TiO2_nanoclusters
 
 **scripts and selected outputs from computing the nonadiabatic couplings (NACs) between pairs of TD-DFT states.**
 
