@@ -1,4 +1,4 @@
-	#Project_relaxation_recombination_TiO2_nanoclusters
+# Project_relaxation_recombination_TiO2_nanoclusters
 
 **scripts and selected outputs from performing the nonadiabatic molecular dynamics (NA-MD) runs.**
 
