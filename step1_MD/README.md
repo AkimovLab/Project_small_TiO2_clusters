@@ -1,4 +1,4 @@
-	# Project_relaxation_recombination_TiO2_nanoclusters
+# Project_relaxation_recombination_TiO2_nanoclusters
 
 **inputs and scripts to be in the same directory to start the calculation**
 
