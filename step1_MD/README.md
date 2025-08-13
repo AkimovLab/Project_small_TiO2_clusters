@@ -5,7 +5,8 @@
 **inputs**:
 
 AIMD is performed with CP2K. The folder contains the (TiO2)1 files as case
-example: geometry (`01_00.xyz`), and cp2k input (`md.inp`).
+example: geometry (`01_00.xyz`), and cp2k input (`md.inp`) for performing the
+MD run.
 
 
 **scripts**:
@@ -19,3 +20,8 @@ temperatures)
 To unpack:
 `unzip trajectory_files.zip`
 
+-------------
+
+To prepare this step, decompress the trajectory file, combine all input and script files in the same folder and run:
+
+**sbatch `submit.slm`**

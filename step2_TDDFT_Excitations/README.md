@@ -39,3 +39,6 @@ To unpack, decompress each file separately:
     tar -xvjf step2_key_outputs_300K.tar.bz2
 
 
+To prepare this step, combine all input and script files in the same folder and run:
+
+**python `distribute_jobs.py`**
