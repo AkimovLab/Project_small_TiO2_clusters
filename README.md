@@ -7,7 +7,7 @@ Dynamics (AIMD); (ii) computation of the TD-DFT excitations, giving rise to the 
 
 
 
-We recommend visiting https://github.com/compchem-cybertraining/Tutorials\_Libra (specially the /master/6\_dynamics/2\_nbra\_workflows branch) for getting detailed
+We recommend visiting [this tutorial](https://github.com/compchem-cybertraining/Tutorials_Libra/tree/master/6_dynamics/2_nbra_workflows) for getting detailed
 information about how to successfully perform the different steps.
 
 
