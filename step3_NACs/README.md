@@ -11,7 +11,7 @@ There is not a "input" folder in this case.
 
 To prepare this step, make sure the previous setps have been properly done, check the path from step 2 outputs is well-written in `step3_NACs.py`and run:
 
-**sbatch `submit_template.sh`**
+    sbatch submit_template.sh
 
 We add the script `PD_NACs_Egaps.py` that (after conducting all step3
 calculations) generate the plots for (at both 100 K and 300 K) probability distribution (PD) of 
@@ -34,11 +34,11 @@ The NACs for the same cases but the latter goes from 0 to 1-2-3.
 
 The files are named (1 per temperature value):
 
-gap_adjacent_*, gap_01_*, nac_adjacent_*, and nac_0_123_*. 
+`gap_adjacent_*`, `gap_01_*`, `nac_adjacent_*`, and `nac_0_123_*`. 
 
 To create the corresponding plots, go to the **scripts** folder and run:
 
-**python `Egaps_NACs_PD_visualization.py`**
+    python Egaps_NACs_PD_visualization.py
 
 Before running, edit the script to select the desired property for the PD function.
 
