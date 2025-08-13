@@ -24,4 +24,4 @@ To unpack:
 
 To prepare this step, decompress the trajectory file, combine all input and script files in the same folder and run:
 
-**sbatch `submit.slm`**
+    sbatch submit.slm
