@@ -19,19 +19,21 @@ Contains the trajectory file obtained with the molecular dynamics (MD) simulatio
 
 This folder contains two compressed files:
 
-all_logfiles.tar.bz2
+`all_logfiles.tar.bz2`
 
-res.tar.bz2
+and 
+
+`res.tar.bz2`
 
 To prepare this step, decompress both files:
 
-tar -xvjf all_logfiles.tar.bz2
-tar -xvjf res.tar.bz2
+    tar -xvjf all_logfiles.tar.bz2
+    tar -xvjf res.tar.bz2
 
 Ensure the extracted folders are named:
 
-all_logfiles
-res
+`all_logfiles`
+`res`
 
 **step3_NACs**
 
@@ -40,19 +42,19 @@ Also includes scripts for plotting the energy gap and NAC probability distributi
 
 To prepare this step, decompress all .tar.bz2 files:
 
-for f in *.tar.bz2; do tar -xvjf "$f"; done
+    for f in *.tar.bz2; do tar -xvjf "$f"; done
 
 Create a new folder called results and move all deompressed contents into it:
 
-mv */* results/ 2>/dev/null
-rmdir */ 2>/dev/null
+    mv */* results/ 2>/dev/null
+    rmdir */ 2>/dev/null
 
 **step4_NAMD**
 
 Contains two compressed files:
 
-step4_FSSH_TiO2_2_100K.tar.bz2
-step4_DISH_TiO2_2_100K.tar.bz2
+`step4_FSSH_TiO2_2_100K.tar.bz2`
+`step4_DISH_TiO2_2_100K.tar.bz2`
 
 Also includes:
 
@@ -63,11 +65,12 @@ system decays. They are prepared for invoking just the DISH results but can be e
 
 To prepare this step, decompress each file separately:
 
-tar -xvjf step4_FSSH_TiO2_2_100K.tar.bz2
-tar -xvjf step4_DISH_TiO2_2_100K.tar.bz2
+    tar -xvjf step4_FSSH_TiO2_2_100K.tar.bz2
+    tar -xvjf step4_DISH_TiO2_2_100K.tar.bz2
 
 Rename the extracted folders:
 
-mv step4_FSSH_TiO2_2_100K FSSH_results
-mv step4_DISH_TiO2_2_100K DISH_results
+    mv step4_FSSH_TiO2_2_100K FSSH_results
+    mv step4_DISH_TiO2_2_100K DISH_results
+
 
