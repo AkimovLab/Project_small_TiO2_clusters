@@ -41,4 +41,4 @@ To unpack, decompress each file separately:
 
 To prepare this step, combine all input and script files in the same folder and run:
 
-**python `distribute_jobs.py`**
+    python distribute_jobs.py
