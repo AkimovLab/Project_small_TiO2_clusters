@@ -1,4 +1,4 @@
-	#full_example_TiO2_2_100K
+# full_example_TiO2_2_100K
 
 **scripts and outputs from performing the complete four-step workflow for the (TiO₂)₂ nanocluster case.**
 
@@ -70,3 +70,4 @@ Rename the extracted folders:
 
 mv step4_FSSH_TiO2_2_100K FSSH_results
 mv step4_DISH_TiO2_2_100K DISH_results
+
