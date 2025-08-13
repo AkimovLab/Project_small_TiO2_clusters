@@ -16,7 +16,7 @@ this folder, just leave in the same directory where the NA-MD runs are conducted
 
 To prepare this step, make sure the previous setps have been properly done, check the path from step 3 outputs is well-written in `NAMD_*.py`and run:
 
-**sbatch `submit_*`**
+    sbatch submit_*
 
 After finishing the NA-MD runs, the script `GS_populations.py` is used to plot the ground state population evolution, as deailed above. The `average_excitation_energy_decay_3functions.py` is sed for fitting the average excitation energy decay to S1, but it requires a lot of heavy files which are not included here (see below).
 
